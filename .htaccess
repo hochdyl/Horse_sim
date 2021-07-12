@@ -1,0 +1,7 @@
+# For Apache
+RewriteEngine On
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^(.*)$ public/index.php?url=$1 [QSA,L]
+
+# For Nginx
+# rewrite ^(.*)$ /public/index.php?url=$1;

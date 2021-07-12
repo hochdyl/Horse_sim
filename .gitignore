@@ -1,0 +1,5 @@
+# PhpStorm forlder
+.idea
+
+# Production config
+config.ini
